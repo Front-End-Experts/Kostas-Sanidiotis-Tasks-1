@@ -1,0 +1,5 @@
+.image {border-radius:50%; size: 0cap; height:300px; width:300px;
+    }
+
+.container{display: flex;
+    justify-content: center;}

@@ -1,0 +1,15 @@
+.container {display: flex; flex-direction: row; flex-wrap: wrap;}
+
+.item1 {order:1; flex-grow:1;  margin: 10px;  padding:10px;
+        border-style:solid; border-color: blue; border-radius:10px;  display: flex;  
+        justify-content: center; 
+       }
+
+.item2 {order:2; flex-grow:1;  margin: 10px;  border-style: solid; border-radius:10px; display: flex;  
+       justify-content: center; 
+      } 
+.item3 {order:3; flex-grow:1;  margin: 10px;  border-style:solid; border-color: gold;   
+        border-radius:10px;  display: flex;  justify-content: center; 
+       }
+
+.image {height: 150px; width: 150px; border-color: chartreuse; border-radius: 10%; border-style:solid;}
