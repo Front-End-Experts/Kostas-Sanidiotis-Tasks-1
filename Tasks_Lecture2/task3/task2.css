@@ -1,0 +1,51 @@
+/*setting background color for the entire menu using 
+element selector*/
+ul {
+  background-color: aquamarine;
+}
+
+/*styling text color for the navigation items using 
+element selector */
+a {
+  color: red;
+}
+
+/*styling text color for specific navigation items 
+using attribute selector */
+[type=main_page] {
+  color: deeppink;
+}
+
+/*adding a hover effect when users hover over naviogation items using 
+a class selector */
+.nav_item:hover {
+  background-color: black;
+}
+
+/*Adjusting the spacing, padding, and margin as needed to make the 
+menu visually appealing */
+#main_menu {
+  border-color: black;
+  border-style: solid;
+  border-radius: 1%;
+  padding: 10px;
+  width: 80px;
+}
+
+/*Add styles to an element that comes immediately after another element
+(combination selector) */
+.navbar p {
+  background-color: beige;
+}
+
+/* Style elements that are descendants of another element
+ (descedent selector - e.g.: style links within the menu items) */
+div a {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Style elements that are direct children of another element 
+(child selector - e.g.: style only the top-level menu items, not nested sub-menus) */
+div p {
+  font-size: x-large;
+}/*# sourceMappingURL=task2.css.map */
